@@ -1,0 +1,14 @@
+st=input()
+count=0
+for i in st:
+    if i=='a':
+        count+=1
+        continue
+    else:
+        break
+        
+if count%2==0 and i=='b':
+    print("Accepted")
+else:
+    print("Not Accepted")
+
